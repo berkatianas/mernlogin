@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://anas:anasanas11@tpstage-ocsi6.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "JesuisLà"
+}
