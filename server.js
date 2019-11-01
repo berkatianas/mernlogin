@@ -8,7 +8,6 @@ app.use(express.json({ extended: false }));
 connectDB();
 
 // Définir les routes
-app.use("/api/users", require("./routes/api/users"));
 app.use("/api/auth", require("./routes/api/auth"));
 
 // Serve static assets in PRODUCTION

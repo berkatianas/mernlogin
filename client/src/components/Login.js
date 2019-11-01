@@ -27,7 +27,7 @@ const Login = ({ login, auth: { isAuth } }) => {
     <Fragment>
       <Grid
         textAlign="center"
-        style={{ height: "50vh" }}
+        style={{ height: "100vh" }}
         verticalAlign="middle"
       >
         <Grid.Column style={{ maxWidth: 450 }}>
@@ -39,6 +39,7 @@ const Login = ({ login, auth: { isAuth } }) => {
             <Segment stacked>
               <Form.Input
                 fluid
+                id="textemail"
                 icon="user"
                 name="email"
                 iconPosition="left"
@@ -48,6 +49,7 @@ const Login = ({ login, auth: { isAuth } }) => {
               />
               <Form.Input
                 fluid
+                id="textpassword"
                 icon="lock"
                 name="password"
                 iconPosition="left"
@@ -57,7 +59,7 @@ const Login = ({ login, auth: { isAuth } }) => {
                 onChange={e => onChange(e)}
               />
 
-              <Button color="blue" fluid size="large">
+              <Button id="btn" color="blue" fluid size="large">
                 Se Connecter
               </Button>
             </Segment>
